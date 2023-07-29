@@ -15,7 +15,6 @@ df = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="data_clean",
-        usecols="B:R",
         nrows=999999
     )
 
@@ -23,7 +22,6 @@ dt = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="data_transaction",
-        usecols="B:R",
         nrows=999999
     )
 
@@ -31,7 +29,6 @@ fr = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="frequent_items",
-        usecols="B:R",
         nrows=999999
     )
 
@@ -39,7 +36,6 @@ ar = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="association_rules",
-        usecols="B:R",
         nrows=999999
     )
 
@@ -47,7 +43,6 @@ rl = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="rules",
-        usecols="B:R",
         nrows=999999
     )
 
@@ -55,7 +50,6 @@ best_ar = pd.read_excel(
         io="Association_Rules.xlsx",
         engine="openpyxl",
         sheet_name="best_ar",
-        usecols="B:R",
         nrows=999999
     )
 
